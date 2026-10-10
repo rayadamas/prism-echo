@@ -4,7 +4,7 @@ import {createRenderer} from './renderer.mjs?v=1.0.0';
 const renderAsync = createRenderer();
 const $ = id => document.getElementById(id);
 const preview = $('preview'), ctx = preview.getContext('2d', {willReadFrequently: true});
-let config = {...defaults}, image, sourceName = 'Diamond · sample portrait', source, mask, echo;
+let config = {...defaults}, image, sourceName = 'Generic avatar · sample image', source, mask, echo;
 let showOriginal = false, focusing = false, painting = false, brushMode = 'erase';
 let renderTimer, toastTimer, paintingPointer = null, manualMask = false, imageGeneration = 0;
 let drawGeneration = 0, drawing = false, redrawPending = false, recipeGeneration = 0, exporting = false;

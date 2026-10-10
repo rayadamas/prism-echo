@@ -4,9 +4,9 @@
 
 A browser-local portrait studio that builds progressively larger, color-separated after-images from your photograph. Smooth texture, crisp graphic edges, repeatable variations, and transparent layers you can take into another design tool.
 
-![The original portrait alongside three real Prism Echo compositions](docs/assets/showcase.png)
+![A generic avatar alongside three real Prism Echo compositions](docs/assets/avatar-showcase.png)
 
-Created by **Diamond Ray Louden**. The showcase above is actual engine output.
+Created by **Diamond Ray Louden**. The showcase uses an original generic avatar; the variations are actual engine output.
 
 ## Try it locally
 
@@ -45,7 +45,7 @@ Place the after-images **over** the aligned foreground layer, then add the selec
 
 ## Push it to GitHub
 
-[The publishing guide](docs/PUBLISHING.md) has exact commands for creating a repository, pushing the code, and enabling the included GitHub Pages workflow. It also covers replacing the sample portrait and adding a demo link to the repository.
+[The publishing guide](docs/PUBLISHING.md) has exact commands for creating a repository, pushing the code, and enabling the included GitHub Pages workflow. It also covers replacing the sample image and adding a demo link to the repository.
 
 ## Commands
 
@@ -85,6 +85,6 @@ Large PNG exports use substantial memory. Use 1024 or 2048 pixels on smaller dev
 
 ## License and assets
 
-All rights reserved; no open-source license has been selected. See [LICENSE](LICENSE). Public source visibility does not grant reuse permission. The bundled portrait and derived showcase images are separate assets and are not licensed for reuse.
+All rights reserved; no open-source license has been selected. See [LICENSE](LICENSE). Public source visibility does not grant reuse permission. The bundled avatar and derived showcase images are included under the same rights-reserved terms.
 
-The bundled portrait has EXIF/XMP/IPTC metadata removed. User-uploaded originals are never modified or persisted by the studio.
+The demo uses an original generic avatar, with an editable SVG source in `public/assets/avatar.svg`. User-uploaded originals are never modified or persisted by the studio.

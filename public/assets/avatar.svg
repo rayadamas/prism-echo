@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760">
+  <title>Generic avatar</title>
+  <desc>An original outline of a circular head and rounded shoulders.</desc>
+  <g fill="#ffffff" stroke="#171923" stroke-width="25" stroke-linejoin="round">
+    <path d="M150 671V566c0-123 103-213 230-213s230 90 230 213v105c0 30-24 54-54 54H204c-30 0-54-24-54-54Z"/>
+    <circle cx="380" cy="215" r="133"/>
+  </g>
+</svg>

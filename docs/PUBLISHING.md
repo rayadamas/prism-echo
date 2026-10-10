@@ -44,20 +44,20 @@ The workflows follow GitHub's [automatic deployment tutorial](https://docs.githu
 
 ## Customize the demo
 
-The package contains Diamond's portrait and showcase images. To change the starting image:
+The package contains an original generic avatar and showcase images made with the engine. To change the starting image:
 
 1. Put your replacement in `public/assets/`.
 2. Edit `public/demo.json`:
 
 ```json
 {
-  "name": "Your name · sample portrait",
-  "image": "./assets/your-portrait.jpg"
+  "name": "Your sample image",
+  "image": "./assets/your-image.png"
 }
 ```
 
-3. Remove `public/assets/diamond.jpg` if you no longer want it included.
-4. Replace the showcase image in `docs/assets/showcase.png` and update its README caption if needed.
+3. Remove `public/assets/avatar.png` and its editable `avatar.svg` source if you no longer want them included.
+4. Replace the showcase image in `docs/assets/avatar-showcase.png` and update its README caption if needed.
 5. Run `npm run verify` and push the change.
 
 Use a bundled same-origin asset, not a remote image URL. The **Use demo** button reloads this configuration while preserving your current effect controls.
